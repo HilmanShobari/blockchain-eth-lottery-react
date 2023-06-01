@@ -78,7 +78,7 @@ function App() {
       <form onSubmit={handleSubmit}>
         <div>
           <h4>Want to try your luck?</h4>
-          <label>Amount ether to enter</label>
+          <label>Amount ether to enter (min 0.011)</label>
           <input
             value={value}
             onChange={(event) => setValue(event.target.value)}
